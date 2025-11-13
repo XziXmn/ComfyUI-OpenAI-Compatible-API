@@ -1,12 +1,13 @@
 # ComfyUI OpenAI Compatible API Node
 
-一个支持 OpenAI 兼容 API 的 ComfyUI 自定义节点，可以调用任何兼容 OpenAI API 格式的大语言模型服务（如 vLLM、LM Studio、Ollama、LocalAI 等）。
+一个支持 OpenAI 兼容 API 的 ComfyUI 自定义节点，可以调用任何兼容 OpenAI API 格式的大语言模型服务（如 vLLM、LM Studio、Ollama、LocalAI，gemini等）。
 
 ## 功能特性
 
 - ✅ 支持纯文本对话
 - ✅ 支持图片+文本的视觉对话（Vision API）
 - ✅ 完全兼容 OpenAI Chat Completions API 格式
+- ✅ 支持seed的输出控制，兼容更多后端（比如某谷歌）
 - ✅ 支持自定义 API 端点
 - ✅ 支持温度、最大 token 数等参数调节
 - ✅ 支持图片细节控制（auto/low/high）
@@ -17,7 +18,7 @@
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/your-repo/ComfyUI-OpenAI-Compatible-API.git
+git clone https://github.com/XziXmn/ComfyUI-OpenAI-Compatible-API.git
 ```
 
 ### 方法二：手动下载
